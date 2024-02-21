@@ -13,7 +13,7 @@
 [QAnything](https://github.com/netease-youdao/QAnything)
 
 部署说明：  
-1. 与后端同事约定数据分部式存储地址为：/data/release/juicefs，因服务使用容器化部署所以需要挂载目录并映射到相同路径：  
+1. 与后端代码约定数据分部式存储地址为：/data/release/juicefs，因服务使用容器化部署所以需要挂载目录并映射到相同路径：  
    -v /data/release/juicefs:/data/release/juicefs   
 2. 默认使用模型以及模型存储地址：  
    m3e-base: /data/release/juicefs/models/m3e-base  
